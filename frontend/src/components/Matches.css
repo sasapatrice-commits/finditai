@@ -1,0 +1,281 @@
+.matches-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.matches-header {
+  max-width: 1200px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.matches-header h1 {
+  color: #333;
+  margin: 0;
+}
+
+.back-btn {
+  background-color: #6c757d;
+  color: white;
+  border: 1px solid #6c757d;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.back-btn:hover {
+  background-color: #5a6268;
+}
+
+.matches-controls {
+  max-width: 1200px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-controls label {
+  font-weight: 500;
+  color: #555;
+}
+
+.filter-controls select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+}
+
+.matches-count {
+  color: #666;
+  font-weight: 500;
+}
+
+.matches-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.match-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
+}
+
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.match-score {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.match-score.high {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.match-score.medium {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.match-score.low {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.match-status {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.match-items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+
+.match-item {
+  flex: 1;
+  padding: 15px;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.lost-item {
+  border-left: 4px solid #dc3545;
+}
+
+.found-item {
+  border-left: 4px solid #28a745;
+}
+
+.match-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.match-item h4 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.match-item p {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.item-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: #888;
+}
+
+.match-divider {
+  font-size: 24px;
+  color: #999;
+  font-weight: bold;
+}
+
+.match-details {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.detail-row span {
+  font-size: 14px;
+  color: #555;
+}
+
+.match-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.verify-btn,
+.reject-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.verify-btn {
+  background-color: #28a745;
+  color: white;
+  border: 1px solid #28a745;
+}
+
+.verify-btn:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: white;
+  border: 1px solid #dc3545;
+}
+
+.reject-btn:hover {
+  background-color: #c82333;
+  transform: translateY(-1px);
+}
+
+.no-matches {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.no-matches p {
+  color: #666;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .matches-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .matches-controls {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .match-items {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .match-divider {
+    transform: rotate(90deg);
+  }
+
+  .detail-row {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .match-actions {
+    flex-direction: column;
+  }
+
+  .verify-btn,
+  .reject-btn {
+    width: 100%;
+  }
+}
