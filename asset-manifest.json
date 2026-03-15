@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/finditai/static/css/main.e7021ad2.css",
-    "main.js": "/finditai/static/js/main.2e7d03ca.js",
+    "main.js": "/finditai/static/js/main.64b00065.js",
     "index.html": "/finditai/index.html",
     "main.e7021ad2.css.map": "/finditai/static/css/main.e7021ad2.css.map",
-    "main.2e7d03ca.js.map": "/finditai/static/js/main.2e7d03ca.js.map"
+    "main.64b00065.js.map": "/finditai/static/js/main.64b00065.js.map"
   },
   "entrypoints": [
     "static/css/main.e7021ad2.css",
-    "static/js/main.2e7d03ca.js"
+    "static/js/main.64b00065.js"
   ]
 }
