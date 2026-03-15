@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://sasapatrice-commits.github.io/finditai/static/css/main.2c3e39d7.css",
-    "main.js": "https://sasapatrice-commits.github.io/finditai/static/js/main.f70f89a8.js",
+    "main.js": "https://sasapatrice-commits.github.io/finditai/static/js/main.e9011854.js",
     "index.html": "https://sasapatrice-commits.github.io/finditai/index.html",
     "main.2c3e39d7.css.map": "https://sasapatrice-commits.github.io/finditai/static/css/main.2c3e39d7.css.map",
-    "main.f70f89a8.js.map": "https://sasapatrice-commits.github.io/finditai/static/js/main.f70f89a8.js.map"
+    "main.e9011854.js.map": "https://sasapatrice-commits.github.io/finditai/static/js/main.e9011854.js.map"
   },
   "entrypoints": [
     "static/css/main.2c3e39d7.css",
-    "static/js/main.f70f89a8.js"
+    "static/js/main.e9011854.js"
   ]
 }
